@@ -1,0 +1,55 @@
+ @font-face {
+  font-family: heebo;
+  src: url(./fonts/Heebo-Regular.ttf);
+}
+
+@media screen and (width: 700px) {
+    html {
+        padding-left: 5%; 
+        padding-right: 5%; 
+        padding-top: 1%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    html {
+        padding-left: 10%; /* Corresponds to 10% of the viewport width */
+        padding-right: 10%;
+        padding-top: 2%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+      padding-left: 30%;
+      padding-right: 30%;
+      padding-top: 2%;
+      }
+}
+
+html {
+  font-family: heebo;
+}
+
+div {
+  padding: 10px;
+  text-align: justify;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.column {
+    width: 300px;
+     float:right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.blue {
+  color: #1a6293;
+}
